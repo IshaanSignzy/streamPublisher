@@ -1,0 +1,42 @@
+# Go binary executables
+*.exe
+*.exe~
+*.out
+*.test
+*.dSYM
+
+# Go object files and build caches
+*.a
+*.o
+*.so
+
+# Go modules and vendor dependencies
+/vendor/
+
+# Go-specific build artifacts
+/bin/
+/obj/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store        # macOS Finder metadata
+Thumbs.db        # Windows thumbnail cache
+*.swp            # Swap files for vim, emacs, etc.
+
+# Coverage output directory
+.coverage/
+coverage.out
+
+# Dependency directories
+Gopkg.lock
+Gopkg.toml
+
+# Go workspace file (optional, depending on your setup)
+go.work
